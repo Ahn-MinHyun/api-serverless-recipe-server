@@ -47,7 +47,7 @@ class RecipeListResource(Resource) :
         
 
         # 7. 클라이언트에 리스판스 한다.
-        return {'count':len(ret), 'ret':ret}, HTTPStatus.OK
+        return {'test':'hello','count':len(ret), 'ret':ret}, HTTPStatus.OK
 
     # 레시피 생성 
     @jwt_required()
