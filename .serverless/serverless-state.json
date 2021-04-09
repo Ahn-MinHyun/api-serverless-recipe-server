@@ -221,7 +221,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/api-server-recipe/dev/1617930800506-2021-04-09T01:13:20.506Z/api-server-recipe.zip"
+                "S3Key": "serverless/api-server-recipe/dev/1617938253806-2021-04-09T03:17:33.806Z/api-server-recipe.zip"
               },
               "Handler": "s_api.handler",
               "Runtime": "python3.7",
@@ -239,14 +239,14 @@
               "ApiLogGroup"
             ]
           },
-          "ApiLambdaVersionUmjD1RVoJtf6Ers0O6U78WhqhZmCYJElNvD9qmKY": {
+          "ApiLambdaVersiongCGNzjLXjZcjTDPmi8UqOsEJTaJBmnVM62JAYcxdAo": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ApiLambdaFunction"
               },
-              "CodeSha256": "Q7IZRqYqCxGlsYARTf2x7e2I2KqKy6gwsQrgXy5/Wgw="
+              "CodeSha256": "Qinm+LM9u9hYOVcRMBda1/D7zrRv5aylRDHlzZGka20="
             }
           },
           "ApiGatewayRestApi": {
@@ -365,7 +365,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1617930748930": {
+          "ApiGatewayDeployment1617938211739": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -524,7 +524,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/api-server-recipe/dev/1617930800506-2021-04-09T01:13:20.506Z/custom-resources.zip"
+                "S3Key": "serverless/api-server-recipe/dev/1617938253806-2021-04-09T03:17:33.806Z/custom-resources.zip"
               },
               "FunctionName": "api-server-recipe-undefined-custom-resource-apigw-cw-role",
               "Handler": "apiGatewayCloudWatchRole/handler.handler",
@@ -580,7 +580,7 @@
           "ApiLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ApiLambdaVersionUmjD1RVoJtf6Ers0O6U78WhqhZmCYJElNvD9qmKY"
+              "Ref": "ApiLambdaVersiongCGNzjLXjZcjTDPmi8UqOsEJTaJBmnVM62JAYcxdAo"
             }
           },
           "ServiceEndpoint": {
@@ -732,7 +732,7 @@
         "timeout": 6,
         "runtime": "python3.7",
         "vpc": {},
-        "versionLogicalId": "ApiLambdaVersionUmjD1RVoJtf6Ers0O6U78WhqhZmCYJElNvD9qmKY"
+        "versionLogicalId": "ApiLambdaVersiongCGNzjLXjZcjTDPmi8UqOsEJTaJBmnVM62JAYcxdAo"
       }
     },
     "configValidationMode": "warn",
@@ -764,10 +764,10 @@
     "isDashboardAppPreconfigured": true,
     "orgUid": "fef97d71-3029-42cb-a4f3-c6d032f578ca",
     "appUid": "0HBrv1XK1jRVvkxjgs",
-    "artifact": "/Users/mac/Desktop/API/surverless/api-server-recipe/.serverless/api-server-recipe.zip"
+    "artifact": "/Users/mac/Desktop/API/serverless/api-server-recipe/.serverless/api-server-recipe.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/api-server-recipe/dev/1617930800506-2021-04-09T01:13:20.506Z",
+    "artifactDirectoryName": "serverless/api-server-recipe/dev/1617938253806-2021-04-09T03:17:33.806Z",
     "artifact": "api-server-recipe.zip"
   }
 }
