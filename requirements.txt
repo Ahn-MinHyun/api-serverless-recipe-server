@@ -1,0 +1,13 @@
+flask
+flask-restful
+mysql-connector-python
+
+# 패스워드 암호화
+psycopg2-binary
+passlib
+
+#이메일 체크하는 라이브러리
+email-validator
+
+#jwt 인증 
+Flask-JWT-Extended

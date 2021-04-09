@@ -1,0 +1,7 @@
+Flask-JWT-Extended
+email-validator
+flask
+flask-restful
+mysql-connector-python
+passlib
+psycopg2-binary
